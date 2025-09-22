@@ -40,7 +40,7 @@ function App() {
         {todos.map((todo, index) => (
           <li
             key={index}
-            className="flex justify-between items-center bg-white shadow p-3 rounded-lg mb-2"
+            className="flex justify-between items-center bg-white shadow p-3 text-black rounded-lg mb-2"
           >
             <span>{todo}</span>
             <button
