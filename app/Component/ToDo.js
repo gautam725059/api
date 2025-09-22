@@ -25,7 +25,7 @@ function App() {
           value={task}
           onChange={(e) => setTask(e.target.value)}
           placeholder="Enter a task"
-          className="px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+          className="px-4 py-2 border rounded-lg "
         />
         <button
           onClick={addTask}
@@ -44,7 +44,7 @@ function App() {
             <span>{todo}</span>
             <button
               onClick={() => removeTask(index)}
-              className="text-red-500 hover:text-red-700"
+              className="text-green-500 hover:text-green-700"
             >
               ❌
             </button>
