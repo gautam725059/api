@@ -22,11 +22,11 @@ function App() {
 
       <div className="flex space-x-2">
         <input
-          type="text"
+          type="text-black"
           value={task}
           onChange={(e) => setTask(e.target.value)}
           placeholder="Enter a task"
-          className="px-4 py-2 border rounded-lg "
+          className="px-4 py-2 border rounded-lg text-black "
         />
         <button
           onClick={addTask}
